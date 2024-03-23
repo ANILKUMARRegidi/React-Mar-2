@@ -1,0 +1,23 @@
+.login{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:10px;
+    flex-direction: column;
+    min-height:100vh;
+}
+.login button:hover{
+    background-color: rgb(68, 223, 68);
+    border-radius:5px;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height:100vh;
+    background-color: rgb(159, 248, 248);
+}
+.profile h2{
+      font-size:30px;
+}
